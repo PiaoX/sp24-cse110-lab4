@@ -1,5 +1,5 @@
 1. values added:  20
-2. values added:  20
+2. final result: 20
 3. values added:  20
 4. **Error:** *ReferenceError: result is not defined.*
 It's because the variable result is declared within the if block using let, which means it has block scope and is only accessible within that block. Therefore, trying to access result on line 13 - outside of its block, results in a ReferenceError.

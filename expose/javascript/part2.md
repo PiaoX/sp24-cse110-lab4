@@ -1,6 +1,6 @@
-1. 3
-2. 150
-3. 150
+1. 3, the function will log the value of i to the console since i is a var.
+2. 150, the function will log the value of discountedPrice of the last item. 
+3. 150, it will log the value of finalPrice to the console which is still 150. 
 4. It will return an array of discounted prices because the function *discountPrices* takes in an array of prices and a discount percentage, then calculates the discounted price for each item in the array and stores them in a new array called *discounted*. It then returns this array of discounted prices.
 5. **Error:** *ReferenceError: i is not defined*
 Since *i* is declared with let in the *for loop* which has a block scope and cannot be accessed outside the scope.
@@ -37,7 +37,7 @@ The function will return an array containing the discounted prices of the items 
     C. true. The == operator performs type conversion, so 2 is converted to a string and then compared to '2', resulting in equality.
     D. false. The === operator checks both value and type without type conversion, so since 2 and '2' have different types, the result is false.
     E. true. The true boolean value is coerced to the number 1, so 1 == 2 returns false.
-    F. false. The Boolean(2) expression returns true, but since true and 1 are of different types, the result is false.
+    F. true. Any non-zero number is considered true. Since 2 is a non-zero number, it returns true
 
 15. == performs type coercion before comparison, which means it tries to convert operands to the same type before comparing. === is strict equality, it compares both value and type without coercion. 
 

@@ -1,0 +1,2 @@
+1. the calculateSum() function concatenates the num1 and num2 variables as strings instead of adding them as numbers.
+2. I worked onto convert num1 and num2 to numbers before performing the addition operation, so I make num1 and num2 parsed as integers before adding them together, and the result I get now is correct.
